@@ -27,7 +27,7 @@ function add_image() {
     var viewportHeight = window.innerHeight;
     var viewportWidth  = window.innerWidth;
     // Edit the src to point to a wallpaper you, you know, like.
-    newcontent.innerHTML = '<div style="background-image:url(http://medias.photodeck.com/dda9f1be-1df9-11e1-a648-fdc95b6a7d82/acor0707_xgaplus.jpg);height:' + viewportHeight + 'px;width:' + viewportWidth + 'px;background-size:100%;"></div>';
+    newcontent.innerHTML = '<div style="background-image:url(http://i.imgur.com/NfLI9W0.jpg);height:' + viewportHeight + 'px;width:' + viewportWidth + 'px;background-size:100%;"></div>';
 
     while (newcontent.firstChild) {
         mydiv[0].appendChild(newcontent.firstChild);
@@ -37,3 +37,4 @@ function add_image() {
 // And we're done here, folks.
 clear_page();
 add_image();
+

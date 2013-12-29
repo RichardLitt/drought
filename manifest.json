@@ -2,15 +2,14 @@
   "name": "Drought",
   "version": "1.0",
   "manifest_version": 2,
-  "background": "background.html",
   "permissions": [
-    "tabs", "https://*.facebook.com/*"
+    "tabs", "https://*.facebook.com/*", "activeTab"
   ],
-  "content_scripts": [
-    {
-      "matches": ["https://*.facebook.com/*"],
-      "js": ["drought.js"],
-      "run_at": "document_end"
-    }
-  ]
+  "background":{
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
 }
