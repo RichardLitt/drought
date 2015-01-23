@@ -2,9 +2,9 @@
   "name": "Drought",
   "version": "1.0",
   "manifest_version": 2,
-  "background": "background.html",
   "permissions": [
-    "tabs", "https://*.facebook.com/*"
+    "tabs",
+    "https://*.facebook.com/*"
   ],
   "content_scripts": [
     {
@@ -14,11 +14,11 @@
     }
   ],
   "icons": {
-    "16": "images/icon16.jpg",
-    "48": "images/icon48.jpg",
-    "128": "images/icon.jpg"
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
   },
   "web_accessible_resources": [
-    "images/*.jpg"
+    "images/*"
   ]
 }
