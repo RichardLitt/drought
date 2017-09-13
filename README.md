@@ -1,6 +1,8 @@
 Drought.js
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/drought.svg)](https://greenkeeper.io/)
+
 This is a Chrome extension to get rid of the distracting bits of
 Facebook (aka - all of it), while still allowing you to talk to the few friends you were already talking to. 
 
